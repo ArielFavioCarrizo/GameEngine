@@ -1,0 +1,10 @@
+Requiere LWJGL2 2.9.3 o compatible.
+
+Para instalar LWJGL en el proyecto:
+Extraer lwjgl.jar y jinput.jar del tarball oficial en el directorio 'jar'.
+Y extraer los contenidos del directorio 'native' en el directorio 'native' de éste proyecto.
+
+Para lanzar el motor de juego con un probador de funcionalidad:
+Hacer una configuración de lanzamiento con las dependencias propias del proyecto más la dependencia con el proyecto GameEngineLibraryTest, pasando como parámetro 'com.esferixis.gameengine.tests.GameTestsLauncher'.
+
+Al ejecutarlo se invocará el motor con una app de prueba, que contiene diversas pruebas para el motor.

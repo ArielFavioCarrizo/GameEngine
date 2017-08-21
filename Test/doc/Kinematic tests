@@ -1,0 +1,23 @@
+Enter 'Kinematic mapper': 
+RotationPlaneKinematicMapper( LinearRotation( 0, 0, 0.1 ) )
+TranslationPlaneKinematicMapper( LinearTrajectory( 0, (0,0), (0.1, 0.025) ) )
+TranslationPlaneKinematicMapper( LinearTrajectory( 0, (0,0), (-0.05, -0.0125) ) )
+
+TransformedPlaneKinematicMapper( RotationPlaneKinematicMapper( LinearRotation( 0, 0, 0.6 ) ), TranslationPlaneKinematicMapper( LinearTrajectory( 0, (0,0), (0.1, 0.025) ) ) )
+
+TransformedPlaneKinematicMapper( RotationPlaneKinematicMapper( LinearRotation( 0, 0, -0.4 ) ), TranslationPlaneKinematicMapper( LinearTrajectory( 0, (0,0), (-0.075, -0.025) ) ) )
+
+Enter 'Shape': 
+Point( (0.25, 0) )
+Circumference( (0.25,0), 0.25 )
+Circle( Circumference( (0,0), 0.25 ) )
+ConvexPolygon( (-0.25, 0), (0, -0.25), (0.25, 0), (0, 0.5) )
+LineSegment( (-0.25, 0), (0.25, 0) )
+CircumferenceSegment( Circumference( (0,0), 0.25 ), [0,1.7] )
+SolidCapsule( LineSegment( (-0.25, 0), (0.25, 0) ), 0.1 )
+
+Circumference( (0.25,0), 0.2 )
+Enter 'Time interval':
+[ 0, 0 ]
+
+DistancePairCollisionDetector( [ 0.00001, 0.001 ] )

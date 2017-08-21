@@ -1,0 +1,8 @@
+El directorio 'MasterProject' es el motor de juego sin las implementaciones concretas de plataforma.
+Necesita ser lanzado con un juego desde una implementación concreta de plataforma.
+Por ejemplo el proyecto 'LWJGL2GameEnvironment'.
+Ver instrucciones en el proyecto.
+
+Se lanza desde el método 'run' de la clase com.esferixis.gameengine.
+
+Para probar las funcionalidades implementadas lanzarlo con  com.esferixis.gameengine.tests.GameTestsLauncher.
